@@ -1,0 +1,30 @@
+/* Contact */
+.contact {
+  .contact-image {
+    width: 200px;
+  }
+  .content {
+    padding: 20px 20px;
+  }
+  .leftcolumn {
+    float: left;
+    width: 180px;
+    padding-right: 10px;
+  }
+  .rightcolumn {
+    float: right;
+    padding-left: 10px;
+    width: 350px;
+  }
+
+  @media (max-width: 700px) {
+    .leftcolumn {
+      float: none;
+      text-align: center;
+      margin: 10px auto;
+    }
+    .rightcolumn {
+      width: 100%;
+    }
+  }
+}
